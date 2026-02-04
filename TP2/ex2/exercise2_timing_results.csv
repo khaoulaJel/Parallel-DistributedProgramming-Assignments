@@ -1,0 +1,5 @@
+Version,Optimization,Time_s_mean,Time_s (mean)
+original,O0,0.5282,0.528200
+original,O2,0.07819999999999999,0.078200
+optimized,O0,0.48040000000000005,0.480400
+optimized,O2,0.0622,0.062200

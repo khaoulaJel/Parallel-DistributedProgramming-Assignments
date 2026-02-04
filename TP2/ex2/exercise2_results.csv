@@ -1,0 +1,5 @@
+Version,Optimization,Time_sec,Time_s (mean)
+Original,O0,0.51,0.510000
+Original,O2,0.0748,0.074800
+Optimized,O0,,Failed
+Optimized,O2,,Failed

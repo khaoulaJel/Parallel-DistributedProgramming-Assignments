@@ -1,0 +1,13 @@
+Threads,Schedule,Chunk,Elapsed_Time
+4,static,0,.269352
+4,static,10,.304167
+4,static,50,.272060
+4,static,100,.272900
+4,dynamic,0,.467167
+4,dynamic,10,.298004
+4,dynamic,50,.264393
+4,dynamic,100,.262915
+4,guided,0,.257466
+4,guided,10,.263862
+4,guided,50,.262906
+4,guided,100,.263455

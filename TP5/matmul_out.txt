@@ -1,0 +1,32 @@
+--- NP=1 ---
+Serial computation time: 0.013448 seconds
+Parallel computation time (1 processes): 0.013095 seconds
+Speedup: 1.026973
+Efficiency: 102.697268%
+
+--- NP=2 ---
+Serial computation time: 0.013376 seconds
+Parallel computation time (2 processes): 0.006636 seconds
+Speedup: 2.015701
+Efficiency: 100.785053%
+
+--- NP=4 ---
+
+Serial computation time: 0.013406 seconds
+Parallel computation time (4 processes): 0.003376 seconds
+Speedup: 3.970286
+Efficiency: 99.257146%
+
+--- NP=8 ---
+
+Serial computation time: 0.013446 seconds
+Parallel computation time (8 processes): 0.001728 seconds
+Speedup: 7.781251
+Efficiency: 97.265643%
+
+--- NP=16 ---
+Serial computation time: 0.013244 seconds
+Parallel computation time (16 processes): 0.000906 seconds
+Speedup: 14.619450
+Efficiency: 91.371560%
+

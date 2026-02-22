@@ -1,0 +1,64 @@
+cc1: fatal error: pi_mpi.c: No such file or directory
+compilation terminated.
+===== NP=1 =====
+
+Serial Pi       : 3.141592653590426
+Reference Pi    : 3.141592653589793
+Serial error    : 6.333e-13
+Serial time     : 0.345305 seconds
+
+Parallel Pi     : 3.141592653590426
+Parallel error  : 6.333e-13
+Parallel time (1 procs): 0.340157 seconds
+Speedup         : 1.015133
+Efficiency      : 101.513325%
+
+===== NP=2 =====
+
+Serial Pi       : 3.141592653590426
+Reference Pi    : 3.141592653589793
+Serial error    : 6.333e-13
+Serial time     : 0.346149 seconds
+
+Parallel Pi     : 3.141592653589909
+Parallel error  : 1.164e-13
+Parallel time (2 procs): 0.169942 seconds
+Speedup         : 2.036865
+Efficiency      : 101.843253%
+
+===== NP=4 =====
+Serial Pi       : 3.141592653590426
+Reference Pi    : 3.141592653589793
+Serial error    : 6.333e-13
+Serial time     : 0.344997 seconds
+
+Parallel Pi     : 3.141592653589683
+Parallel error  : 1.106e-13
+Parallel time (4 procs): 0.085065 seconds
+Speedup         : 4.055697
+Efficiency      : 101.392419%
+
+===== NP=8 =====
+Serial Pi       : 3.141592653590426
+Reference Pi    : 3.141592653589793
+Serial error    : 6.333e-13
+Serial time     : 0.345028 seconds
+
+Parallel Pi     : 3.141592653589815
+Parallel error  : 2.220e-14
+Parallel time (8 procs): 0.042554 seconds
+Speedup         : 8.108089
+Efficiency      : 101.351107%
+
+===== NP=16 =====
+Serial Pi       : 3.141592653590426
+Reference Pi    : 3.141592653589793
+Serial error    : 6.333e-13
+Serial time     : 0.345016 seconds
+
+Parallel Pi     : 3.141592653589883
+Parallel error  : 8.971e-14
+Parallel time (16 procs): 0.021307 seconds
+Speedup         : 16.192564
+Efficiency      : 101.203524%
+

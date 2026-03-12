@@ -1,0 +1,1 @@
+Training time: 7.662 seconds (MPI, 2 processes)
